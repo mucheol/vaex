@@ -288,7 +288,6 @@ html, body {
   .section03 .fp-tableCell {
     height: 100vh !important;
   }
-  
 /* SECTION01 */
 .section01 .introduce {
   font-size: 26px;
@@ -357,10 +356,5 @@ html, body {
 
 #fp-nav.fp-right {
   display: none;
-}
-
-.arrow {
-  position: absolute;
-  bottom: 10%;
 }
 }
