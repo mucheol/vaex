@@ -283,7 +283,12 @@ margin-top: 8%;
 	background: #ccc;	
 }
 .ryear-cont p {
+  display: flex;
 	font-size: 14px;
+}
+.ryear-cont p span{
+  display: block;
+  margin-right: 10px;
 }
 .ryear-cont:nth-child(2) p {
 	margin-bottom: 10px;

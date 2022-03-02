@@ -40,7 +40,7 @@ a {
     width: 1000px;
     margin: 10% auto;
     margin-bottom: 5%;
-    
+    position: relative;
 }
 
 #section1 .title {
@@ -52,15 +52,22 @@ a {
 .title a {
     font-size: 25px;
     color: #000;
+    margin-left: 4px;
+    z-index: 2;
 }
 .title h2 {
-    font-size: 40px;
-    width: 43vw;
-    font-weight: 600; 
+  font-size: 40px;
+  width: 100%;
+  font-weight: 600;
+  position: absolute;
+  left: -13px;
+  text-align: center;
+  z-index: 1;
 }
 #section1 .s1_cont {
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 1000px;
     flex-wrap: wrap;
@@ -109,13 +116,16 @@ a {
     }
     .title a {
         font-size: 20px;
+        margin-left: 0;
     }
     .title h2 {
-        font-size: 20px;
-        width: 0px;
-        color: #38beef;
+      position: relative;
+      text-align: inherit;
+      font-size: 20px;
+      width: 0px;
+      color: #38beef;
+      margin-left: 35px;
     }
-
     #section1 .s1_cont {
         margin-top: 10%;
         display: flex;

@@ -257,7 +257,8 @@ width: 40vw;
         display: flex;
         flex-direction: column;
        text-align: center;
-      
+       width: 90vw;
+       margin-left: 5vw;
     }
   
     .s2_web .s2_cont1 .mainslogan2 {

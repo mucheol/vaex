@@ -298,6 +298,9 @@ html, body {
   font-size: 16px;
   line-height: 28px;
 }
+.section01.active .inner p {
+  line-height: 27px;
+}
 /* SECTION02 */
 .section02 .title {
   font-size: 26px;
@@ -311,6 +314,9 @@ html, body {
 }
 .section02 .tabContents .tabText .tab {
   height: 220px;
+}
+.section02 .tabContents .tabText .tab.active {
+  justify-content: normal;
 }
 .section02 .tabContents .tabText .tab.active .imgBox {
   animation: slideUp 1.2s forwards;

@@ -389,6 +389,9 @@ section {
 .content02 .textBox .textBoxTop {
   justify-content: center;
 }
+.content02 .textBox > p {
+  width: 100%;
+}
 .content02 .textBox p:nth-child(2) {
   font-size: 16px;
   line-height: 30px;
