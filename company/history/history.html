@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+     <!-- reset css -->
+     <link rel="stylesheet" href="../history/css/reset_2.css">
+     <!-- main css -->
+     <link rel="stylesheet" href="../history/css/history.css">
+       <!-- header footer -->
+       <link rel="stylesheet" href="/header/header.css">
+       <link rel="stylesheet" href="/footer/footer.css">
+</head>
+<body>
+  <div id="wrap">
+        <!-- HEADER -->
+   <div id="headers"></div>
+<div id="container">
+<section id="section1">
+    <div class="s1_cont">
+        <div class="site-center">
+          <div class="fixed-wrapper">
+            <div class="fixed-content">
+            <p><a href="/index.html">HOME></a>Company><span>History</span></p>
+            <div class="stickyBox">
+              <h2>Consideration on discovering<br> and spreading new values</h2>
+              <h3>We grow together by striving<br>create a better ecosystem</h3>
+            </div>
+            </div>
+          </div>
+          <div class="content-offset">
+            <div class="content-frame"> 
+            
+              <!--content----------------------------------------->
+              <div id="content" class="row expand">
+                <div class="inner-padding">
+                  <img src="/company/history/img/img1.png" alt="">
+                    <div class="history">
+                        <div class="year-cont">
+                            <h4 class="notranslate">2022</h4>
+                            <div class="border"></div>
+                            <div class="year-cont-text">
+                              <p class="notranslate">07</p>
+                              <p>Completion of Development of a security electronic wallet for both IC card and ACV main net</p>
+                            </div>
+                        </div>
+                        <div class="year-cont">
+                            <h4>2021</h4>
+                            <div class="border"></div>
+                            <div class="year-cont-text title1">
+                              <p>12</p>
+                              <p>Token ICO (undecided) exclusive for the exchange by December, 2021.</p>
+                            </div>
+                            <div class="year-cont-text title2">
+                              <p>11</p>
+                              <p>First License Acquisition Completed (DMCC DLT License)</p>
+                            </div>
+                            <div class="year-cont-text title3">
+                              <p>11</p>
+                              <p>Cryptocurrency Exchange VAEX Beta Service Starts</p>
+                            </div>
+                            <div class="year-cont-text title4">
+                              <p>08</p>
+                              <p>Issuance of exchange tokens and private/pre-sale in 2021.</p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////responsive///////////////////////////////// -->
+    <div class="s1_cont2">
+        <div class="contentBx1">
+            <h2>Consideration on discovering<br>and spreading new values.</h2>
+            <h3>We grow together by striving<br>to create a better ecosystem.</h3>
+            <img src="/company/history/img/img1.png" alt="">
+        </div>
+        <div class="contentBx2">
+  <div class="ryear-cont">
+                            <h4>2022</h4>
+                            <div class="border"></div>
+                            <p class="title0"><span>07</span>Completion of Development of a security electronic wallet for both IC card and ACV main net</p>
+                        </div>
+                        <div class="ryear-cont">
+                            <h4>2021</h4>
+                            <div class="border"></div>
+                            <p class="title1 .title"><span>12</span>Token ICO (undecided) exclusive for the exchange by December, 2021.</p>
+                            <p class="title2 .title"><span>11</span>First License Acquisition Completed (DMCC DLT License)</p>
+                            <p class="title3 .title"><span>11</span>Cryptocurrency Exchange VAEX Beta Service Starts</p>
+                            <p class="title4 .title"><span>08</span>Issuance of exchange tokens and private/pre-sale in 2021.</p>
+                          
+                        </div>
+        </div>
+    </div>
+</section>
+
+</div>
+ <!-- FOOTER -->
+ <div id="footers"></div>
+  </div> 
+  <script src="../history/js/jquery-3.6.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/custom.js"></script> 
+  <script type="text/javascript">
+$(document).ready(function() {  
+
+    var fixed_offset = $(".fixed-wrapper").offset().top;
+            $(window).on("scroll mousewheel touchmove", function() {
+              
+                var scroll_bar = $(document).scrollTop();
+        
+                if (scroll_bar > fixed_offset) {
+                    $(".fixed-content").addClass("fixed_event");
+                } else {
+                    $(".fixed-content").removeClass("fixed_event");
+                }
+                
+                if(scroll_bar > 50){
+                  
+                    $(".year-cont:nth-child(2) > p").css({
+                        "animation" : "fade 1.5s 1", 
+                        "animation-delay" : "0s"
+                    });
+                   
+                }
+
+
+            })
+})
+  </script>
+</body>
+</html>

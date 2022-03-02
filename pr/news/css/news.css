@@ -1,0 +1,152 @@
+@charset "urf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Pretendard';
+}
+
+#wrap {
+	overflow: hidden;
+
+}
+
+* {
+	user-select: none;
+}
+
+img {
+	display: block;
+}
+
+legend {
+	display: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/* /////////////////////////////////////////////////////////////////// */
+
+#container #section1 {
+    width: 1000px;
+    margin: 10% auto;
+    margin-bottom: 5%;
+    
+}
+
+#section1 .title {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.title a {
+    font-size: 25px;
+    color: #000;
+}
+.title h2 {
+    font-size: 40px;
+    width: 43vw;
+    font-weight: 600; 
+}
+#section1 .s1_cont {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    
+}
+.s1_cont .card {
+   width: 300px;
+   height: 400px;
+   margin-right: 30px;
+    
+}
+.card a {
+    color: #000;
+}
+.card a img {
+  width: 300px;
+  height: 180px;
+}
+.card a h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.card a p {
+    color: rgb(73, 72, 72);
+    margin-top: 10px;
+}
+.s1_cont .card4, .card5 {
+    margin-top: -5%;
+} 
+/* //////////////////////////////responsive////////////////////////// */
+@media screen and (max-width: 480px) { 
+
+    #container #section1 {
+        margin: 30% auto;
+        margin-bottom: 15%;
+        width: 80vw;
+    }
+    
+    #section1 .title {
+        justify-content: space-between;
+        width: 20vw;
+        margin: 0 auto; 
+        margin-right: 45%;      
+    }
+    .title a {
+        font-size: 20px;
+    }
+    .title h2 {
+        font-size: 20px;
+        width: 0px;
+        color: #38beef;
+    }
+
+    #section1 .s1_cont {
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        flex-wrap: wrap;
+    }
+    .s1_cont .card {
+       width: 80vw;
+        height: auto;
+        margin-right: 3%;
+        border-top: 1px solid #ccc;
+        margin-top: 5px;
+    }
+    .card a {
+        color: #000;
+    }
+    .card a img {
+       display: none;
+    }
+    .card a h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .card a p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+   
+
+
+
+}

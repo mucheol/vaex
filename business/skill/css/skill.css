@@ -1,0 +1,384 @@
+@charset "urf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Pretendard';
+}
+
+#wrap {
+	overflow: hidden;
+
+}
+
+* {
+	user-select: none;
+}
+
+img {
+	display: block;
+}
+
+legend {
+	display: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/* /////////////////////////////////////////////////////////////////// */
+
+#container #section1 {
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+    }
+    
+    #section1 .s1_img {
+    background: url(../img/s1_img.jpg) no-repeat;
+    width: 100vw;
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    opacity: 50%;
+    }
+    #section1 .s1_text {
+        width: 950px;
+       margin: 0 auto;
+        position: absolute;
+        top: 88%;
+        left: 50%;
+       transform: translate(-50%,-50%);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       color: #fff;
+       }
+       .s1_text h1 {
+           font-size: 40px;
+       }
+       .s1_text p {
+           font-size: 1rem;
+           margin-top: 2%;  
+           font-weight: 300;
+       }
+       .s1_text p span {
+           
+           font-weight: bold;
+       }
+       .s1_text p a {
+           color: #fff;
+       }
+
+       /* /////////////////////section2///////////////////// */
+       #container #section2 .s2_web {
+        width: 950px;
+        margin: 5% auto;
+        }
+
+        .s2_web  .s2_cont1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .s2_cont1 .s2_slogan .mainslogan2 {
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .s2_slogan .mainslogan2 a {
+            font-size: 18px;
+            color: #50bbdd;
+            }
+        .s2_cont1 .s2_slogan .slogan2 {
+            display: none;
+        }
+        .s2_slogan .slogan1 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 7%;
+            line-height: 25px;
+        }
+        .s2_cont1 .s2_btn {
+           
+            display: none;
+        }
+        .s2_cont1 .s2_btn button {
+            font-size: 18px;
+            background: none;
+            border: none;
+            color: #50bbdd;
+            font-weight: 600;
+            cursor: pointer;
+            
+        }
+        /* /////////////////////////////tab//////////////////////////////// */
+        #section2 .s2_cont2 .tab-menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10%;
+            
+        }
+        .tab-menu > li {
+            cursor: pointer;
+        }
+        .tab-menu > li img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+        .tab-menu > li .title {
+            text-align: center;
+            margin-top: 20%;
+            font-size: 20px;
+            color: #000;
+        }
+        .hide {
+            display: none;
+          }
+          .active {
+          display: block;
+          }
+          .s2_cont2 ul li.active h3 {
+            color: #50bbdd;
+            font-weight: 600;
+            }
+            .s2_cont2 ul li.active img {
+                box-shadow: 0 5px 5px  rgb(170, 168, 168);
+            }
+        .s2_cont2 .tab-content > div {
+            font-size: 18px;
+            width: 950px;
+            margin: 0 auto;
+            margin-top: 5%;
+            line-height: 25px;
+            margin-left: 0%;
+        }
+        .s2_cont2 .tab-content .tab-explan {
+            line-height: 25px;
+        }
+        .tab-content > div .responsive-explan {
+            display: none;
+        }
+        .s2_cont2  .c2_border {
+            width: 1000px;
+            height: 1px;
+            background-color: #ccc;
+            margin-top: 5%;
+        }
+/* ///////////////////////////tabresponsive//////////////////////// */
+.s2_cont2 .tabresponsive {
+    width: 80vw;
+    margin: 0 auto;
+    display: none;
+}
+.tabresponsive > div > img{
+    width: 50vw;
+    margin: 0 auto;
+}
+.tabresponsive .tab{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+        /* //////////////////section3/////////////////////////////////// */
+
+
+    #container #section3 {
+        width: 950px;
+        margin: 5% auto;
+    }
+
+    #section3 .s3_title{
+        font-size: 40px;
+        font-weight: 500;
+        
+    }
+    #section3 .s3_cont .content .title {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 5%;
+    }
+    .title span {
+        margin-right: 10px;
+    }
+    .s3_cont .content .c1_explan {
+        font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 40vw;
+    }
+    .s3_cont .content .c1_explan span{
+        font-size: 15px;
+    }
+    .content .day {
+        font-size: 18px;
+        color: #50bbdd;
+    }
+
+    @media screen and (max-width: 480px) {
+
+ /* /////////////////////////section1/////////////////////////// */
+        
+ #section1 .s1_img {
+    height: 40vh;
+    }
+    #section1 .s1_text {
+    top: 80%;
+    width: 80vw;
+    }
+    .s1_text h1 {
+        font-size: 30px;
+    }
+    .s1_text p {
+       display: none;
+    }
+
+    /* /////////////////////////section2//////////////////////////// */
+
+
+    #container #section2 .s2_web {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .s2_web .s2_cont1 {
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+      
+    }
+  
+    .s2_web .s2_cont1 .mainslogan2 {
+        display: block;
+        font-size: 25px;
+        margin: 5% 0;
+        margin-top: 10%;
+    }
+    .s2_cont1 .mainslogan2 a {
+        display: none;
+    }
+    .s2_web .s2_cont1 .slogan1 {
+        display: none;
+    }
+    .s2_web .s2_cont1 .slogan2 {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        
+    }
+    .s2_cont1 .s2_btn {
+        margin-right: 0%;
+        margin: 5% 0;
+        display: block;
+        
+    }
+    .s2_cont1 .s2_btn button {
+        font-size: 14px;
+        background: none;
+        border: 1px solid #50bbdd;
+        color: #50bbdd;
+        padding: 10px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom: 5%;
+    }
+#section2 .s2_web .s2_cont2 .tab-menu{
+    display: none;
+}
+#section2 .s2_web .s2_cont2 {
+    width: 80vw;
+    margin: 0 auto;
+}
+#section2 .s2_web .s2_cont2 .tabresponsive {
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+}
+.tabresponsive .tab li {
+  width: 33%;
+  text-align: center;
+  margin: 0 5px;
+}
+.s2_cont2 .tabresponsive .tab li h3 {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 20px;
+}
+.s2_cont2 .tabresponsive .tab li.active h3 { 
+   border-bottom: 1px solid #50bbdd;
+   padding: 10px 0;
+    
+}
+
+.tabresponsive > div > img{
+    width: 80vw;
+    height: 30vh;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.s2_cont2 .tab-content > div {
+    font-size: 14px;
+    width: 80vw;
+    margin: 7% 0;
+    line-height: 25px;
+}
+.tab-content > div .tab-explan {
+    display: none;
+}
+.tab-content > div .responsive-explan {
+    display: block;
+}
+.s2_cont2  .c2_border {
+    width: 80vw;
+   
+}
+
+/*///////////////////////////////////// section3 //////////////////////*/
+
+#container #section3 {
+    width: 80vw;
+    margin: 7% auto;
+}
+
+#section3 .s3_title{
+    font-size: 25px;
+    margin-top: 10%;
+}
+#section3 .s3_cont .content .title {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+.title span {
+    margin-right: 10px;
+}
+.s3_cont .content .c1_explan {
+font-size: 14px;
+width: 80vw;
+font-weight: 400;
+line-height: 25px;
+}
+.s3_cont .content .c1_explan span{
+    font-size: 13px;
+}
+.content .day {
+    font-size: 14px;
+}
+
+
+
+}

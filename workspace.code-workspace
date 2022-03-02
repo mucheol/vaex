@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "skill",
+			"path": "..\\skill"
+		},
+		{
+			"name": "thinkblock",
+			"path": "..\\thinkblock"
+		},
+		{
+			"name": "portfolio",
+			"path": "..\\..\\Users\\user\\Desktop\\mucheol\\개인자료\\portfolio"
+		},
+		{
+			"name": "vaex",
+			"path": "."
+		},
+		{
+			"name": "manualPage",
+			"path": "..\\manualPage"
+		}
+	],
+	"settings": {
+    "liveServer.settings.multiRootWorkspaceName": "vaex",
+    "git.ignoreLimitWarning": true
+	}
+}

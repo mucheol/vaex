@@ -1,0 +1,189 @@
+/* 초기화 CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, html {
+	line-height: 1;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root {
+  --hj-gray: #999999;
+  --hj-white: #e6e6e6;
+  --hj-blue: #062865;
+  --hj-navy: #03101b;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Pretendard";
+  word-break: keep-all;
+  letter-spacing: -0.05em;
+  line-height: 30px;
+  font-weight: 400;
+}
+html, body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  padding: 0 25px;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+.content .titleBack {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100vw;
+  height: 160px;
+  background-color: #0A1423;
+  color: #fff;
+}
+.content .content-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  width: 1000px;
+  padding: 0 25px;
+  padding-bottom: 40px;
+}
+.content .content-title p {
+  width: 125px;
+  font-size: 32px;
+}
+.content .navBox {
+  display: flex;
+  position: absolute;
+  bottom: 35px;
+  right: 25px;
+}
+.content .navBox p,
+.content .navBox a{
+  width: auto;
+  color: #fff;
+  font-size: 16px;
+}
+.content .navBox p:nth-child(5) {
+  font-weight: 700;
+}
+.content .navBox span{
+  font-size: 10px;
+  margin: 0 3px;
+}
+.content .buildingAddress {
+  width: 100%;
+  margin: 70px 0 30px;
+}
+.content .buildingAddress .building{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.content .googleMaps {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+@media all and (max-width:479px) { /* @@@@@@모바일@@@@@ */
+  .inner {
+    width: 95vw;
+  }
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.content .titleBack {
+  width: 100vw;
+  height: 160px;
+  background-color: transparent;
+  color: #000;
+}
+.content .content-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+}
+.content .content-title p {
+  width: auto;
+  font-size: 36px;
+  font-weight: 600;
+}
+.content .navBox {
+  display: none;
+}
+.content .buildingAddress {
+  text-align: center;
+  width: 90vw;
+  margin: 35px 0;
+}
+.googleMaps {
+  margin-bottom: 0;
+}
+.goolgleMaps > iframe {
+  width: 90vw !important;
+  height: 35vh !important;
+}
+footer {
+  bottom: 0;
+}
+}
