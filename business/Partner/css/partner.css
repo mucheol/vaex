@@ -103,23 +103,28 @@ margin-bottom: 10%;
 .partner .partnercont  {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 950px;
     margin: 0 auto;
     height: 20vh;
 }
-#section2 .partner1 .partnercont img {
-    width: 15vw;
-    margin-left: 0px;
+#section2 .partner .partnercont img {
+  width: 200px;
+  margin-left: 50px;
 }
-.partner .partnercont img {
-    width: 13vw;
-    margin-left: 20px;
+#section2 .partner1 .partnercont img {
+  width: 250px;
+  margin-left: 22px;
 }
 .partner .partnercont p {
     font-size: 18px;
     line-height: 30px;
-    width: 28vw;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+.partner1 .partnercont p {
+    margin-left: 47px;
 }
 
 /* ////////////////////responsive///////////////////////////////////////// */

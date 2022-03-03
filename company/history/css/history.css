@@ -83,7 +83,7 @@ html>body .row.expand {
   width: 50vw;
 }
 .history .year-cont {
-  width: 100%;
+  width: 600px;
 	font-size: 18px;
 	margin-top: 5%;
 }
@@ -143,6 +143,7 @@ margin-bottom: 10px;
 }
 .stickyBox {
   position: sticky;
+  width: 52%;
   top: 180px;
 }
 .stickyBox h2 {
