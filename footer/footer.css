@@ -142,6 +142,26 @@ footer .hor-line:nth-child(4) {
 .footer-bottom-icon img:nth-child(3){
   margin: 10px 0;
 }
+.footer-bottom-icon a img:nth-child(2){
+  display: none;
+}
+.footer-bottom-icon a:hover img:nth-child(1){
+  display: none;
+}
+.footer-bottom-icon a:hover img:nth-child(2){
+  display: block;
+  animation: iconHover 1s forwards;
+}
+@keyframes iconHover {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
 .footer-bottom-menu {
   display: flex;
   margin-top: 10px;
