@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+     <!-- reset css -->
+     <link rel="stylesheet" href="../history/css/reset_2.css">
+     <!-- main css -->
+     <link rel="stylesheet" href="../history/css/history.css">
+       <!-- header footer -->
+       <link rel="stylesheet" href="/vaexJa/header/header.css">
+       <link rel="stylesheet" href="/vaexJa/footer/footer.css">
+</head>
+<body>
+  <div id="wrap">
+        <!-- HEADER -->
+   <div id="headers"></div>
+<div id="container">
+<section id="section1">
+    <div class="s1_cont">
+        <div class="site-center">
+          <div class="fixed-wrapper">
+            <div class="fixed-content">
+            <p><a href="/vaexJa/index(ja).html">ホーム ></a>会社紹介 ><span>沿革</span></p>
+            <div class="stickyBox">
+              <h2>新しい価値の発掘と伝播の ための悩み</h2>
+              <h3>最も良い生態系の造成に努め、共に成長します。</h3>
+            </div>
+            </div>
+          </div>
+          <div class="content-offset">
+            <div class="content-frame"> 
+            
+              <!--content----------------------------------------->
+              <div id="content" class="row expand">
+                <div class="inner-padding">
+                  <img src="/vaexJa/company/history/img/img1.png" alt="">
+                    <div class="history">
+                        <div class="year-cont">
+                            <h4 class="notranslate">2022</h4>
+                            <div class="border"></div>
+                            <div class="year-cont-text">
+                              <p class="notranslate">07</p>
+                              <p>ICカード兼用セキュリティ電子ウォレット開発/ACVメインネット完成。</p>
+                            </div>
+                        </div>
+                        <div class="year-cont">
+                            <h4>2021</h4>
+                            <div class="border"></div>
+                            <div class="year-cont-text title1">
+                              <p>12</p>
+                              <p>取引所 専用 トークン ICO (未定)</p>
+                            </div>
+                            <div class="year-cont-text title2">
+                              <p>11</p>
+                              <p>1次ライセンス取得済み（DMCC DLTライセンス）</p>
+                            </div>
+                            <div class="year-cont-text title3">
+                              <p>11</p>
+                              <p>暗号通貨取引所VAEXベータサービス開始</p>
+                            </div>
+                            <div class="year-cont-text title4">
+                              <p>08</p>
+                              <p>取引所トークン発行及びプライベート/プリセール</p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////responsive///////////////////////////////// -->
+    <div class="s1_cont2">
+        <div class="contentBx1">
+            <h2>新しい価値の発掘と伝播の ための悩み</h2>
+            <h3>最も良い生態系の造成に努め、共に成長します。</h3>
+            <img src="/vaexJa/company/history/img/img1.png" alt="">
+        </div>
+        <div class="contentBx2">
+  <div class="ryear-cont">
+                            <h4>2022</h4>
+                            <div class="border"></div>
+                            <p class="title0"><span>07</span>ICカード兼用セキュリティ電子ウォレット 開発/ACVメインネット完成。</p>
+                        </div>
+                        <div class="ryear-cont">
+                            <h4>2021</h4>
+                            <div class="border"></div>
+                            <p class="title1 .title"><span>12</span>取引所 専用 トークン ICO (未定)</p>
+                            <p class="title2 .title"><span>11</span>1次ライセンス取得済み（DMCC DLTライセンス）</p>
+                            <p class="title3 .title"><span>11</span>暗号通貨取引所VAEXベータサービス開始</p>
+                            <p class="title4 .title"><span>08</span>取引所トークン発行及びプライベート/プリセール</p>
+                          
+                        </div>
+        </div>
+    </div>
+</section>
+
+</div>
+ <!-- FOOTER -->
+ <div id="footers"></div>
+  </div> 
+  <script src="../history/js/jquery-3.6.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/vaexJa/custom.js"></script> 
+  <script type="text/javascript">
+$(document).ready(function() {  
+
+    var fixed_offset = $(".fixed-wrapper").offset().top;
+            $(window).on("scroll mousewheel touchmove", function() {
+              
+                var scroll_bar = $(document).scrollTop();
+        
+                if (scroll_bar > fixed_offset) {
+                    $(".fixed-content").addClass("fixed_event");
+                } else {
+                    $(".fixed-content").removeClass("fixed_event");
+                }
+                
+                if(scroll_bar > 50){
+                  
+                    $(".year-cont:nth-child(2) > p").css({
+                        "animation" : "fade 1.5s 1", 
+                        "animation-delay" : "0s"
+                    });
+                   
+                }
+
+
+            })
+})
+  </script>
+</body>
+</html>

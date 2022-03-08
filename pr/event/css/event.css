@@ -49,6 +49,7 @@ a {
 .title a {
     font-size: 25px;
     color: #000;
+    z-index: 2;
 }
 .title h2 {
   font-size: 40px;

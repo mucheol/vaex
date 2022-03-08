@@ -72,7 +72,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 65px;
-  background-color: #1d2635;
+  background-color: #161b29;
   z-index: 998;
 }
 .header-inner {
@@ -128,16 +128,16 @@ header nav ul > li:hover ul.submenu {
   z-index: 1;
 }
 header nav ul > li ul.submenu.sub01 li:nth-child(1){
-  margin-left: 390px;
+  margin-left: 330px;
 }
 header nav ul > li ul.submenu.sub02 li:nth-child(1){
-  margin-left: 365px;
+  margin-left: 307px;
 }
 header nav ul > li ul.submenu.sub03 li:nth-child(1){
-  margin-left: 660px;
+  margin-left: 595px;
 }
 header nav ul > li ul.submenu.sub04 li:nth-child(1){
-  margin-left: 855px;
+  margin-left: 790px;
 }
 header .ver-line {
   display: block;
@@ -148,21 +148,62 @@ header .ver-line {
   background-color: rgba(255,255,255,0.3);
 }
 /* HEADER - SELECT */
-header select {
+/* header select {
   color: #fff;
   font-size: 18px;
   border: none;
   border-style: none;
   background-color: transparent;
-  border-radius:0; /* 아이폰 사파리 보더 없애기 */ 
-  -webkit-appearance:none; /* 화살표 없애기 for chrome*/ 
-  -moz-appearance:none; /* 화살표 없애기 for firefox*/ 
-  appearance:none /* 화살표 없애기 공통*/
+  border-radius:0; 
+  -webkit-appearance:none;
+  -moz-appearance:none; 
+  appearance:none;
 }
 header select:focus {
   outline: none;
   background-color: #1d2635;
+} */
+.langPack {
+  position: relative;
+  top: 0;
+  left: -15px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 65px;
+  color: #fff;
+  font-size: 18px;
+  z-index: 2;
 }
+.langPack-top {
+  text-align: center;
+    position: relative;
+    line-height: 65px;
+    width: 80px;
+    height: 65px;
+    background-color: rgb(22, 27, 41);
+    cursor: pointer;
+    z-index: 3;
+}
+.langPack .languages{
+  position: absolute;
+  top: -20px;
+  width: 80px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #161b29;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: .7s;
+}
+.langPack .languages a{
+  color: rgb(146, 146, 146);
+}
+.langPack .languages a:hover{
+  color: #fff;
+}
+
 .mHeader {
   display: none;
 }

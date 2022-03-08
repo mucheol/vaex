@@ -139,9 +139,13 @@ a {
             border-radius: 50%;
         }
         .tab-menu > li .title {
-            text-align: center;
-            margin-top: 20%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+            margin-top: 10%;
             font-size: 20px;
+            height: 60px;
             color: #000;
         }
         .hide {
@@ -218,7 +222,7 @@ justify-content: space-between;
         font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-width: 40vw;
+width: 800px;
     }
     .s3_cont .content .c1_explan span{
         font-size: 15px;
@@ -321,7 +325,6 @@ width: 40vw;
 .s2_cont2 .tabresponsive .tab li.active h3 { 
    border-bottom: 1px solid #50bbdd;
    padding: 10px 0;
-    
 }
 
 .tabresponsive > div > img{
