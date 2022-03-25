@@ -135,7 +135,7 @@ margin-bottom: 10px;
 	height:100%;	
 }
 .fixed-content {
-	min-height: 99vh;
+	min-height: 978px;
 	/* position: fixed; */
 	/* overflow-x:hidden; */
   margin-left: -50px;

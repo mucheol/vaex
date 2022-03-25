@@ -235,7 +235,7 @@ header select:focus {
   text-align: center;
   line-height: 20px;
   color: #fff;
-  background-color: #1d2635;
+  background-color: #161b29;
   cursor: none;
   border-bottom-left-radius: 20px;
   z-index: 1;
@@ -470,7 +470,7 @@ header select:focus {
 /* Language */
 .langBox {
   position: absolute;
-  bottom: 30px;
+  bottom: 130px;
   display: flex;
 }
 .langBox p {

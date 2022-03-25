@@ -19,6 +19,6 @@ $(document).ready(function(){
       $('.app-android').removeClass('active'); 
       $('.app-ios').addClass('active');
     });
-    
+
   });
   

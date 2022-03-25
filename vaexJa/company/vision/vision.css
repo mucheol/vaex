@@ -157,7 +157,6 @@ html, body {
   font-size: 54px;
   font-weight: 600;
   line-height: 26px;
-  margin-top: 1vh;
 }
 .section02.active .title {
   animation: slideUp 2s forwards;
@@ -182,7 +181,7 @@ html, body {
   font-weight: 300;
   line-height: 26px;
   padding: 5px;
-  margin: 6vh 57px 8vh;
+  margin: 110px 57px;
   cursor: pointer;
 }
 .section02 .tabContents .tabMenu p.active {
@@ -199,7 +198,7 @@ html, body {
   align-items: center;
 }
 .section02 .tabContents .tabText .imgBox {
-  height: 16vh;
+  height: 160px;
 }
 .section02 .tabContents .tabText .tab.active .imgBox {
   animation: slideUp 1.2s forwards;
@@ -207,7 +206,7 @@ html, body {
 }
 .section02 .tabContents .tabText img {
   display: block;
-  height: 16vh;
+  height: 160px;
 }
 .section02 .tabContents .tabText p {
   width: 850px;
@@ -215,7 +214,7 @@ html, body {
   font-size: 26px;
   line-height: 39px;
   letter-spacing: 0;
-  margin: 2vh 0 2vh;
+  margin: 40px 0;
   opacity: 0;
 }
 .section02 .tabContents .tabText .tab.active p {
@@ -258,7 +257,7 @@ html, body {
 
 /* FULLPAGE NAV BAR */
 #fp-nav.fp-right{
-  right: 5%;
+  right: 10%;
 }
 #fp-nav ul li:nth-child(4) {
   display: none;

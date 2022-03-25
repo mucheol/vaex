@@ -172,24 +172,29 @@ font-weight: 500;
     }
     
     .partner .partnercont  {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-        margin: 0 auto;
-        height: 20vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90vw;
+      margin: 0 auto;
+      padding: 10px 0;
+      height: auto;
     }
+    .partner1 .partnercont p {
+      margin-left: 70px;
+   }
     #section2 .partner1 .partnercont img {
         width: 30vw;
         margin-left: 2%;
     }
-    .partner .partnercont img {
+    #section2 .partner .partnercont img {
         width: 25vw;
         margin-left: 5%;
     }
     .partner .partnercont p {
         font-size: 14px;
         line-height: 20px;
+        margin-right: 20px;
         width: 50vw;
     }
 
