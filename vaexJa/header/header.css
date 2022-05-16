@@ -72,7 +72,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 65px;
-  background-color: #161b29;
+  background-color: #0f0323;
   z-index: 998;
 }
 .header-inner {
@@ -128,10 +128,10 @@ header nav ul > li:hover ul.submenu {
   z-index: 1;
 }
 header nav ul > li ul.submenu.sub01 li:nth-child(1){
-  margin-left: 195px;
+  margin-left: 90px;
 }
 header nav ul > li ul.submenu.sub02 li:nth-child(1){
-  margin-left: 298px;
+  margin-left: 280px;
 }
 header nav ul > li ul.submenu.sub03 li:nth-child(1){
   margin-left: 580px;
@@ -182,7 +182,7 @@ header select:focus {
     line-height: 65px;
     width: 80px;
     height: 65px;
-    background-color: rgb(22, 27, 41);
+    background-color: #0f0323;
     cursor: pointer;
     z-index: 3;
 }
@@ -192,7 +192,7 @@ header select:focus {
   width: 80px;
   text-align: center;
   padding: 10px 0;
-  background-color: #161b29;
+  background-color: #0f0323;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   transition: .7s;
@@ -235,7 +235,7 @@ header select:focus {
   text-align: center;
   line-height: 20px;
   color: #fff;
-  background-color: #1d2635;
+  background-color: #0f0323;
   cursor: none;
   border-bottom-left-radius: 20px;
   z-index: 1;
