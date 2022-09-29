@@ -583,10 +583,11 @@ section.main-m .inner{
 }
 section.main-m .btnBox{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   position: absolute;
   width: 100%;
-  top: 79.83vw ;
+  top: 42vh ;
+  left: 4vw;
 }
 section.main-m .btnBox button {
   width: 35.71vw;
