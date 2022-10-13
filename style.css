@@ -96,45 +96,16 @@ section {
 /* CONTENT00 */
 .main {
   position: relative;
-    display: flex;
-    height: 95vh;
-    background-image: url(/image/dnf_img.png);
-    background-position-y: 26px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
-    padding-top: 10px;
-    box-sizing: content-box;
-  /* animation: backChange 10s infinite;
-  animation-delay: .5s; */
+  display: flex;
+  height: 95vh;
+  background-image: url(/image/main-banner.jpg);
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: backChange 10s infinite;
+  animation-delay: .5s;
 }
-.main .inner .btnBox {
-  box-sizing: border-box;
-  position: absolute;
-  top: 680px;
-  left: 237px;
-}
-.main .inner .btnBox button {
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
-  background: transparent;
-  color: #fff;
-  border: 1px solid #fff;
-  cursor: pointer;
-}
-/* .main .inner .btnBox button a {
-  color: #fff;
-} */
-.main .inner .btnBox a:nth-child(2) {
-margin-left: 60px; 
-}
-.main .inner .btnBox button:hover {
-   background-color: #0652ff ;
-   color: #fff;
-   border: none;
-}
-/* @keyframes backChange {
+@keyframes backChange {
   0% {
     background-image: url(/image/main-banner.jpg);
   }
@@ -332,7 +303,7 @@ margin-left: 60px;
   text-align: end;
   color: #fff;
   margin-right: 20px;
-} */
+}
 
 /* MAIN - Mobile */
 section.main-m {
@@ -527,84 +498,28 @@ section.main-m {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width:479px) { /* @@@@@@모바일@@@@@ */
 .main {
   display: none;
 }
 /* MAIN - Mobile */
 section.main-m {
-  display: block;
-    width: 100vw;
-    height: 110vh;
-    position: relative;
-    display: flex;
-    background-color: #000;
-    background-image: url(/image/dnf_img_m.png);
-    background-position: center;
-    background-position-y: 30px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  /* animation: backChange 10s infinite;
-  animation-delay: .5s; */
-}
-section.main-m .inner{
-  width: 100%;
-  padding: 0;
-}
-section.main-m .btnBox{
   display: flex;
-  justify-content: start;
-  position: absolute;
-  width: 100%;
-  top: 48vh ;
-  left: 4vw;
+  height: auto;
+  background-position-x: center;
 }
-section.main-m .btnBox button {
-  width: 32vw;
-  height: 10vw ;
-  border-radius: 6.30vw ;
-  border: 1px solid #fff;
-  color: #fff;
-  background-color: #000;
+.main-m {
+  position: relative;
+  display: flex;
+  height: auto;
+  background-image: url(/image/main-banner.jpg);
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: backChange 10s infinite;
+  animation-delay: .5s;
 }
-section.main-m .btnBox button:hover {
-  border: none;
-  background-color: #0652ff ;
-}
-section.main-m .btnBox:nth-child(1) button {
-  margin: 0 2.10vw ;
-}
-/* @keyframes backChange {
+@keyframes backChange {
   0% {
     background-image: url(/image/main-banner.jpg);
   }
@@ -764,7 +679,7 @@ section.main-m .btnBox:nth-child(1) button {
   animation: rotate2 10s linear infinite;
   animation-delay: .5s;
   transform: rotateX(90deg);
-} */
+}
 /* CONTENT01 */
 .content01 {
   height: auto;
