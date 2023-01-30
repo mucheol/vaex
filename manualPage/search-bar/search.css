@@ -1,0 +1,182 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}
+body {	line-height: 1;}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+* {
+  letter-spacing: 0.2px;
+}
+a, a:hover, a:link, a:visited {
+  text-decoration: none !important;
+  color: #000;
+}
+body {
+  background-color: #f7f9ff;
+}
+.wrapper {
+  width: 100%;
+  background-color: #E5EBF5;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* SEARCH */
+.search {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(29, 38, 53);
+}
+.search .search-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+.search-bar {
+  width: 960px;
+  height: 60px;
+  border-radius: 10px;
+}
+.search-bar .search-bar-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.search-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 60px;
+  background-image: url("/manualPage/img/readingglasses.png");
+  background-size: cover;
+  background-position: center;
+}
+.search-bar-inner input {
+  width: calc(100% - 30px);
+  height: 100%;
+  line-height: 60px;
+  border-radius: 10px;
+  padding: 0 10px 0 60px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #d9e7ff;
+}
+.search-bar-inner input:focus {
+  border: transparent;
+}
+
+/* MANUAL */
+.manual {
+  width: 960px;
+  margin: 0 auto;
+  padding: 80px 0 30px;
+}
+.manual .breadcrumb {
+  display: flex;
+}
+.manual .breadcrumb li{
+  font-size: 14px;
+  color: #86848b;
+}
+.manual .breadcrumb li a{
+  font-size: 14px;
+  color: #86848b;
+  transition: .3s;
+}
+.manual .breadcrumb li a:hover{
+  color: #000;
+}
+.manual .breadcrumb li + li::before {
+  content: "/";
+  margin: 0 10px;
+}
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.titleBox-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: #1D2635;
+}
+.titleBox-icon img {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+.titleBox-textBox {
+  width: calc(100% - 150px);
+  display: flex;
+  flex-direction: column;
+}
+.titleBox .titleBox-title {
+  font-size: 28px;
+  color: #1D2635;
+  line-height: 60px;
+}
+.titleBox .titleBox-des {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #515054;
+  margin: 5px 0;
+}
+/* MANUAL CARD */
+.card {
+  width: 100%;
+  margin: 25px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #d8dde7;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: .7s;
+}
+.card:hover {
+  box-shadow: 0 0 10px #bdc1ca;
+}
+.card-inner {
+  position: relative;
+  display: block;
+  width: 94%;
+  height: 100%;
+  padding: 30px;
+}
+.card-inner, 
+.card-inner:hover, 
+.card-inner:link, 
+.card-inner:visited {
+  color: #1D2635 !important;
+}
+.card-title {
+  font-size: 23px;
+}
+.card-des {
+  line-height: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #515054;
+}
